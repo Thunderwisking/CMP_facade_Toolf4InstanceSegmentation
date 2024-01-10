@@ -40,7 +40,7 @@ def parse_xml(file_path, output_folder):
                     flag = 0
                 else:
                     flag = 1
-                file.write(f'{flag} {x1} {y1} {x1} {y2} {x2} {y2} {x2} {y1}\n')
+                file.write(f'{flag} {y1} {x1} {y1} {x2} {y2} {x2} {y2} {x1}\n')
 
             
 
